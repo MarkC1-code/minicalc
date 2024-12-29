@@ -1,0 +1,182 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(100, 98, 98);
+    color: white;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+
+#container {
+    display: grid;
+    background: rgba(35, 35, 30, 0.911);
+    width: 250px;
+    height: 45vh;
+    margin: 0 auto;
+    padding-bottom: -6rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 10px;
+}
+
+button {
+    padding: .5rem;
+    border-radius: .4rem;
+    border: none;
+    font-weight: bold;
+    padding-bottom: 2rem;
+    font-size: 25px;
+    margin: 5px;
+    height: 5vh;
+    background: rgb(27, 26, 26);
+    color: rgb(62, 147, 150);
+    box-shadow: 0px 0px 20px white;
+
+}
+
+ #botn2, #botn4 {
+ font-size: 30px;
+ padding-bottom: 1rem;
+ 
+
+}
+
+
+button:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px black;
+    
+}
+
+
+#input {
+      position: absolute;
+    background: rgba(120, 107, 102, 10);
+    display: grid;
+    box-shadow: 0px 1.5px 5px;
+    grid-template-columns: 115px 115px;
+    width: 225px;
+    margin-left: .2rem;
+    padding: 10px;
+    border-radius: 2rem;
+      transform: translateY(-100%);
+            transition: transform 0.3s ease-in-out;
+            z-index: 4;
+}
+
+
+#calc {
+    padding: 5px;
+    font-size: 30px;
+    margin-top: -7px;
+    margin-right: 80px;
+}
+
+
+
+
+h3 {
+    font-size: 25px;
+}
+
+
+
+#diss {
+    width: 90%;
+    background-color: white;
+    margin: 9px auto;
+    height: 50px;
+    color: black;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-size: 30px;
+    padding-left: .5rem;
+    border-radius: .5rem;
+
+}
+
+
+
+#del:hover {
+    background: white;
+    color: black;
+}
+#retn:hover {
+    background: white;
+    color: black;
+}
+#del {
+    float: right;
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-right: 20px;
+    color: rgb(227, 78, 78);
+    border-radius: 50%;
+    margin-top: -2rem;
+}
+
+
+.top {
+    display: flex;
+    
+}
+
+.top button{
+    margin-left: 10px;
+    width: 60px;
+    padding: 0px 14px;
+}
+#botn4 {
+    padding-top: 8px;
+    
+}
+
+
+.numbers {
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    margin: .5rem;
+    margin-top: 50px;
+    margin-left: -110px;
+    
+}
+
+.right {
+    display: grid;
+    margin-top: -57px;
+    margin-right: -100px;
+    margin-left: 45px;
+}
+
+#percent {
+    margin-left: 35px;
+}
+
+#fil {
+    display: flex;
+}
+
+#equal {
+    margin-right: 2px;
+    width: 8rem;
+    margin-left: 2rem;
+}
+  #toggleIcon {
+            margin-left: -2rem;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            z-index: 11;
+            color: rgb(52, 255, 52);
+        }
+         #container {
+            position: relative;
+        }
+
+   
+    
+       

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second part</title>
+</head>
+<body>
+    <div id="container">
+        <div class="subin" >
+            
+            </div>
+            <div style="margin-top: -1rem;">
+                <h3 style=" margin-left: 1.4rem; ">Mark's Calculator</h3>
+                    <p id="diss"><span id="input1"> </span><span id="input0"> </span><span id="input2"></span></p>
+            <div style="margin-bottom: 4rem; display: flex;  height: 2rem; margin-top: 2rem;"><h3 style="margin-left: 1rem; ">Ans:</h3> <p id="calc"></p> </div>
+                <button id="del" onclick="del()">del</button>
+            </div>
+            <div id="main">
+                
+                <div id="input">
+                    <div class="top">
+                        <button id="divid" onclick="operator('/')">/</button>
+                        <button id="multi" onclick="operator('*')">*</button>
+                        <button id="plus" onclick="operator('+')">+</button>
+                        <button id="minus" onclick="operator('-')">-</button>
+                       
+                    </div>
+                    <div class="numbers">
+                        <button id="botn1"  onclick="numb(1)">1</button>
+                        <button id="botn22" onclick="numb(2)">2</button>
+                        <button id="botn3"  onclick="numb(3)">3</button>
+                        <button id="botn44" onclick="numb(4)">4</button>
+                        <button id="botn5"  onclick="numb(5)">5</button>
+                        <button id="botn6"  onclick="numb(6)">6</button>
+                        <button id="botn7"  onclick="numb(7)">7</button>
+                        <button id="botn8"  onclick="numb(8)">8</button>
+                        <button id="botn9"  onclick="numb(9)">9</button>
+                        <button id="botn0"  onclick="numb(0)">0</button>
+                    </div>
+                    <div class="right">
+                        <button id="percent" onclick="percentage()">%</button>
+                        <div> <span id="toggleIcon" onclick="toggleInput()">&#9660;</span><button id="equal" onclick="equalsTo()">=</button></div>
+
+                    </div>
+                
+                </div>
+            </div>
+
+    </div>
+
+   <script src="./dynamics.js"></script>
+</body>
