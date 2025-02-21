@@ -10,7 +10,7 @@ function operator(param){
 }
 //specil operators assignment function
 function percentage(){
-  percent = "%"
+  percent = "%";
   input1.innerText += percent
 }
 //number assigning function
